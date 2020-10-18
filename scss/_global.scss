@@ -1,0 +1,72 @@
+html {
+   box-sizing: border-box;
+   scroll-behavior: smooth; //плавная прокрука
+}
+*,
+*::after,
+*::before {
+   box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+   padding: 0;
+   font-size: inherit;
+}
+fieldset {
+   display: block;
+   margin: 0;
+   padding: 0;
+   font-size: inherit;
+}
+ul,
+li {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: "Gilroy", sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 24px;
+   color: #333;
+}
+a {
+   display: inline-block;
+   text-decoration: none;
+   color: inherit;
+}
+img {
+   max-width: 100%;
+   display: block;
+   height: auto;
+}
+.container {
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.btn {
+   font-weight: 700;
+   font-size: 16px;
+   text-transform: uppercase;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+}
+.page-section {
+   padding: 46px 0 70px;
+}
+.title {
+   font-weight: 800;
+   font-size: 36px;
+   line-height: 46px;
+   text-align: center;
+}
